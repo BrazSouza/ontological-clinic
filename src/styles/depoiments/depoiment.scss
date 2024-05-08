@@ -1,0 +1,47 @@
+.depoimentos {
+	margin-top: 5rem;
+
+	.card {
+		padding: 10px;
+		box-shadow: 0 0 15px #d2d6d2;
+
+		.img-depoiment {
+			width: 4rem;
+			height: 4rem;
+			margin: 2rem auto;
+			border-radius: 50%;
+			transform: scale(1.5);
+		}
+
+		.desc {
+			margin: 0;
+			padding: 0;
+			line-height: 1.8rem;
+			font-size: 0.9rem;
+		}
+
+		.reviews {
+			width: 30%;
+			height: 2rem;
+			margin: 0.5rem auto;
+			border-radius: 0.2rem;
+			background: #eee;
+
+			.classification {
+				position: relative;
+				top: -1.5rem;
+				margin: 0 auto;
+				padding: 0 20px;
+			}
+		}
+
+		.name {
+			margin: 0;
+			font-size: 1.3rem;
+		}
+
+		.text {
+			font-size: 0.8rem;
+		}
+	}
+}

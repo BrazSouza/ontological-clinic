@@ -1,0 +1,17 @@
+	.link-btn {
+		padding: 0.5rem 0.9rem;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		border-radius: 0.5rem;
+		font-size: 1.2rem;
+		background-color: $btn;
+		cursor: pointer;
+
+		&:hover {
+			color: $btn;
+			border: 0.1rem solid $btn;
+			background-color: transparent;
+			transition: all 0.2s ease-in-out;
+		}
+	}

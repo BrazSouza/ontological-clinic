@@ -1,0 +1,74 @@
+@media screen and (min-width: 320px) and (max-width: 992px) {
+	.section-sobre {
+		.title {
+			display: none;
+		}
+
+		.img-sobre {
+			margin-top: 55%;
+		}
+
+		.box-sobre {
+			position: relative;
+			top: 5rem;
+			background: none;
+
+			.content-sobre {
+				top: 0;
+				right: 0;
+				padding: 2rem 1.5rem;
+
+				.title-sobre {
+					color: $btn;
+					font-size: 2rem;
+					font-weight: bold;
+				}
+
+				h3 {
+					margin-bottom: 20px !important;
+					font-size: 2rem;
+					font-family: 'Poppins', Arial, Helvetica, sans-serif;
+				}
+
+				.text-sobre {
+					line-height: 2rem;
+					padding-bottom: 0.5rem;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 325px) and (max-width: 399px) {
+	.section-sobre {
+		.img-sobre {
+			position: relative;
+			top: 15rem;
+		}
+
+		.box-sobre {
+			margin-top: 5rem;
+			.content-sobre {
+				h3 {
+					margin-bottom: 40px;
+					font-size: 1.2rem;
+					font-family: 'Poppins', Arial, Helvetica, sans-serif;
+				}
+
+				.text-sobre {
+					line-height: 1.5rem;
+				}
+			}
+		}
+	}
+}
+
+// @media screen and (min-width: 320px) {
+// 	.section-sobre {
+// 		.img-sobre {
+// 			position: relative;
+// 			top: 100%;
+// 			height: auto;
+// 		}
+// 	}
+// }

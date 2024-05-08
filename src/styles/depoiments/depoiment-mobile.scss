@@ -1,0 +1,22 @@
+@media  screen and (min-width: 250px) and (max-width: 992px) {
+	.depoimentos {
+		.card {
+			.reviews {
+				width: auto;
+				height: 2.5rem;
+				margin: 0.5rem auto;
+				border-radius: 0.2rem;
+				background: #eee;
+
+				.classification {
+					position: relative;
+					top: -34px;
+					left: 0;
+					min-width: 110px;
+					height: 106px;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}

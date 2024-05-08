@@ -1,0 +1,58 @@
+.form {
+	margin-top: 5rem;
+	padding: 2rem 0 4rem;
+	background-image: url('/bg-footer.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: #fff !important;
+
+	.form-contact {
+		width: 30%;
+		padding: 1rem 1rem 2rem;
+		margin: 2rem auto;
+		border-radius: 8px;
+		backdrop-filter: blur(10px);
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+
+		.title-agenda {
+			display: block;
+			width: 100%;
+			margin: 0 auto 1rem;
+			padding: 0.5rem;
+			text-align: center;
+			font-weight: 700;
+			letter-spacing: 0.1rem;
+			text-transform: uppercase;
+			background: $title-color;
+		}
+
+		label {
+			color: #000;
+			font-weight: 400;
+		}
+
+		input {
+			background: #d2d6d2;
+
+			&::placeholder {
+				font-size: 0.8rem;
+			}
+
+			&.data {
+				font-size: 0.8rem;
+			}
+		}
+
+		.btn-form {
+			width: 60%;
+			margin-top: 0.5rem;
+			letter-spacing: 0.1rem;
+			font-weight: 500;
+			text-transform: uppercase;
+			font-family: monospace;
+			// background: $btn
+		}
+	}
+}

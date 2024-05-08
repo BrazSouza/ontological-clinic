@@ -1,0 +1,53 @@
+.section-home {
+	width: 100%;
+	height: 100%;
+	padding: 5rem 0;
+	background-image: url('/bg-home.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	.content {
+		max-width: 50%;
+
+		.title-home {
+			color: #fff;
+			font-size: 4rem;
+			text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+		}
+
+		.text-home {
+			max-width: 80%;
+			margin-bottom: 1rem;
+			color: #666;
+		}
+	}
+
+	.card {
+		position: relative;
+		top: 0;
+		transform: translateY(45%);
+		left: 0;
+		bottom: 0;
+		text-align: center;
+		border: none;
+		border-radius: 0;
+
+		.card-body {
+			.img-icon {
+				width: 6rem;
+				height: 6rem;
+				line-height: 2.5px;
+				padding: 10px;
+				border-radius: 50%;
+				background: $btn;
+			}
+
+			.card-title {
+				margin: 1.5rem 0 0;
+				color: #fff;
+				font-size: 1.4rem;
+			}
+		}
+	}
+}

@@ -1,13 +1,83 @@
 @import './variables.scss';
+@import './header/header.scss';
+@import './header/header-mobile.scss';
+@import './button/button.scss';
+@import './section/home.scss';
+@import './section/home-mobile.scss';
+@import './sobre/sobre.scss';
+@import './sobre/sobre-mobile.scss';
+@import './servicos/servicos.scss';
+@import './servicos/servicos-mobile.scss';
+@import './process/process.scss';
+@import './process/process-mobile.scss';
+@import './depoiments/depoiment.scss';
+@import './depoiments/depoiment-mobile.scss';
+@import './form/form.scss';
+@import './form/form-mobile.scss';
+@import './form/form-mobile.scss';
+@import './alert/alert.scss';
+@import './footer/footer.scss';
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none !important;
 }
 
 html {
 	scroll-behavior: smooth !important;
+	scroll-padding-top: 6.5rem !important;
 	--scroll-behavior: smooth !important;
-	font-size: 62.5%;
 }
+
+body {
+  background: #f8fff8;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 3rem;
+  color: $title-color; /* Cor azul */
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+
+  &::after,
+  &::before {
+    position: absolute;
+    content: '';
+		display: block;
+		top: 2.5rem;
+    bottom: 0;
+		width: 5%;
+    height: 0.2rem;
+    background: $title-color; /* Cor azul */
+    transition: width 0.3s ease; /* Transição suave */
+  }
+
+  &::after {
+    left: 50%; /* Posição à esquerda */
+    transform: translateX(-50%);
+  }
+
+  &::before {
+    right: 50%; /* Posição à direita */
+    transform: translateX(50%);
+  }
+
+  /* Hover para aumentar a largura dos sublinhados */
+  &:hover::after,
+  &:hover::before {
+    width: calc(15% - 20px); /* Largura aumentada no hover */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+

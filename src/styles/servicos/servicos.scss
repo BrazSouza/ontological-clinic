@@ -1,0 +1,29 @@
+.servicos {
+	margin-top: 5rem;
+
+	.card {
+		padding: .5rem;
+		box-shadow: 0 0 15px #d2d6d2;
+		
+		&:hover {
+			transform: scale(1.1);
+			transition: transform .3s linear;
+			z-index: 1;
+		}
+
+		.service-icon {
+			width: 15%;
+			height: 15%;
+			margin: 1.5rem auto 1rem;
+		}
+		
+		.service-title {
+			color: $title-color;
+		}
+		
+		.service-text {
+			line-height: 1.5rem;
+			font-size: .9rem;
+		}
+	}
+}
