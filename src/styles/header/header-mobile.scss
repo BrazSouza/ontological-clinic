@@ -12,25 +12,34 @@
 			position: absolute;
 			flex-flow: column;
 			width: 100%;
+			max-height: 0;
 			top: 100%;
 			left: 0;
 			text-align: center;
 			border-bottom: 0.2rem rgba(0, 0, 0, 0.1);
 			background-color: #fff;
 			box-shadow: 0 0.5rem 1rem #f9f9f9;
+			overflow: hidden;
+			transition: max-height 0.4s ease-in-out;
+
+			
+
+			&.nav-active {
+				max-height: 500px;
+			}
 
 			.nav-link {
 				position: relative;
-        display: none;
+				display: none;
 
 				&:hover::after {
 					position: absolute;
 					content: '';
 					display: block;
-          left: 50%;
+					left: 50%;
 					width: 20%;
 					height: 0.2rem;
-          margin: 0 auto;
+					margin: 0 auto;
 					background: $btn;
 					transform: translateX(-50%);
 					transition: all 0.4s ease-in-out;
