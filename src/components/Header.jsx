@@ -10,13 +10,17 @@ const Header = ({
 		{ name: 'Home', path: '/' },
 		{ name: 'Sobre', path: '/sobre' },
 		{ name: 'Serviços', path: '/servicos' },
-		{ name: 'Avaliações', path: '/reviews' },
+		{ name: 'Avaliações', path: '/depoimentos' },
 		{ name: 'Contato', path: '/contato' },
 	],
 }) => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
+	};
+
+	const closeMenu = () => {
+		setIsMenuOpen(false);
 	};
 
 	return (
@@ -32,7 +36,7 @@ const Header = ({
 					<div className="col">
 						<nav className={`nav ${isMenuOpen ? 'nav-active' : ''}`}>
 							{links.map(({ name, path }) => (
-								<Link key={name} to={path} className="nav-link">
+								<Link key={name} to={path} className="nav-link" onClick={closeMenu}>
 									{name}
 								</Link>
 							))}

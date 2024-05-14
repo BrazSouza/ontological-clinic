@@ -1,4 +1,9 @@
-import Button from '../components/Button';
+import Button from './components/Button';
+import Sobre from './pages/sobre';
+import Servicos from './pages/servicos';
+import Processo from './pages/processo';
+import Depoimentos from './pages/depoimentos';
+import Form from './components/Form';
 
 const Home = () => {
 	const cards = [
@@ -55,6 +60,11 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+			<Sobre />
+			<Servicos />
+			<Processo />
+			<Depoimentos />
+			<Form />
 		</div>
 	);
 };

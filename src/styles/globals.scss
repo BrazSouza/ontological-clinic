@@ -2,8 +2,8 @@
 @import './header/header.scss';
 @import './header/header-mobile.scss';
 @import './button/button.scss';
-@import './section/home.scss';
-@import './section/home-mobile.scss';
+@import './home/home.scss';
+@import './home/home-mobile.scss';
 @import './sobre/sobre.scss';
 @import './sobre/sobre-mobile.scss';
 @import './servicos/servicos.scss';
@@ -34,50 +34,62 @@ html {
 }
 
 body {
-  background: #f8fff8;
+	background: #f8fff8;
 }
 
 .title {
-  position: relative;
-  margin-bottom: 3rem;
-  color: $title-color; /* Cor azul */
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	position: relative;
+	margin-bottom: 3rem;
+	color: $title-color; /* Cor azul */
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 
-  &::after,
-  &::before {
-    position: absolute;
-    content: '';
+	&::after,
+	&::before {
+		position: absolute;
+		content: '';
 		display: block;
-		top: 2.5rem;
-    bottom: 0;
+		top: 3.5rem;
+		bottom: 0;
 		width: 5%;
-    height: 0.2rem;
-    background: $title-color; /* Cor azul */
-    transition: width 0.3s ease; /* Transição suave */
-  }
+		height: 0.2rem;
+		background: $title-color; /* Cor azul */
+		transition: width 0.3s ease; /* Transição suave */
+	}
 
-  &::after {
-    left: 50%; /* Posição à esquerda */
-    transform: translateX(-50%);
-  }
+	&::after {
+		left: 50%; /* Posição à esquerda */
+		transform: translateX(-50%);
+	}
 
-  &::before {
-    right: 50%; /* Posição à direita */
-    transform: translateX(50%);
-  }
+	&::before {
+		right: 50%; /* Posição à direita */
+		transform: translateX(50%);
+	}
 
-  /* Hover para aumentar a largura dos sublinhados */
-  &:hover::after,
-  &:hover::before {
-    width: calc(15% - 20px); /* Largura aumentada no hover */
-  }
+	/* Hover para aumentar a largura dos sublinhados */
+	&:hover::after,
+	&:hover::before {
+		width: calc(15% - 20px); /* Largura aumentada no hover */
+	}
 }
 
 @media screen and (max-width: 992px) {
-  .title {
-    font-size: 1.5rem;
-  }
-}
+	.title {
+		font-size: 1.5rem;
 
+		&::after,
+		&::before {
+			position: absolute;
+			content: '';
+			display: block;
+			top: 2.5rem;
+			bottom: 0;
+			width: 5%;
+			height: 0.2rem;
+			background: $title-color; /* Cor azul */
+			transition: width 0.3s ease; /* Transição suave */
+		}
+	}
+}
