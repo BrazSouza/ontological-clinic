@@ -11,16 +11,22 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 ## Instalação
 
+## Caminho para o repositório
+
+```sh
+1. https://github.com/BrazSouza/ontological-clinic/tree/main
+```
+
 1. Clone o repositório:
 
    ```sh
-   git clone https://github.com/BrazSouza/projeto-faculdade.git
+   git clone https://github.com/BrazSouza/projeto-faculdade.git (enter)
    ```
 
 2. Instale as dependências do projeto:
 
    ```sh
-   npm install
+   npm install (enter)
    ```
 
 ## Configuração do Banco de Dados
@@ -34,7 +40,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 1. Inicie o servidor de desenvolvimento do React:
 
    ```sh
-   npm run dev
+   npm run dev (enter)
    ```
 
 2. Acesse o projeto em seu navegador através do endereço:
