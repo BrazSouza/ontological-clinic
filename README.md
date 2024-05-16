@@ -20,10 +20,20 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 1. Clone o repositório:
 
    ```sh
+<<<<<<< HEAD
    git clone https://github.com/BrazSouza/projeto-faculdade.git (enter)
+=======
+   git clone -b main https://github.com/BrazSouza/projeto-faculdade.git
+>>>>>>> 50d1ad85230464f611117cc6f257a6a611a27b89
    ```
 
-2. Instale as dependências do projeto:
+2. Navegue até o diretório do projeto:
+
+   ```sh
+   cd ontological-clinic
+   ```
+
+3. Instale as dependências do projeto:
 
    ```sh
    npm install (enter)
