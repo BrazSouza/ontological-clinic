@@ -20,7 +20,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 1. Clone o repositório:
 
    ```sh
-   git clone -b main https://github.com/BrazSouza/projeto-faculdade.git
+   git clone -b main https://github.com/BrazSouza/ontological-clinic.git
    ```
 
 2. Navegue até o diretório do projeto:
