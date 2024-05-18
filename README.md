@@ -7,6 +7,7 @@ O projeto "Odonto Vida" é uma aplicação desenvolvida como parte de um trabalh
 Antes de começar, verifique se você atende aos seguintes requisitos:
 
 - Node.js e npm instalados (recomendado: versão v18.17.0)
+- Git
 - XAMPP instalado e configurado
 - IDE (por exemplo, Visual Studio Code) instalada
 
@@ -83,7 +84,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 
-Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato através do email: braz.silva@gmail.com
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato através do email: srbraz.silva@gmail.com
 
 # React + Vite
 
