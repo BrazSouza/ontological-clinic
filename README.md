@@ -17,7 +17,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 1. Abra o **Explorador de Arquivos** ( exemplo: Windows Explorer).
 2. Navegue até o diretório onde o XAMPP está instalado. Normalmente, é `C:\xampp`.
 3. Dentro da pasta `xampp`, abra a pasta `htdocs`.
-4. Dentro da pasta `htdocs`, crie uma nova pasta chamada `ontological-clinic`.
+4. Dentro da pasta `htdocs`, crie uma nova pasta chamada `projeto`.
 
 ### Passo 2: Pegar o Link do Repositório
 
@@ -29,10 +29,10 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 1. Abra a sua IDE (por exemplo, Visual Studio Code).
 2. Abra o terminal integrado. No Visual Studio Code, você pode fazer isso clicando em **Terminal** > **New Terminal** no menu superior.
-3. Navegue até a pasta `htdocs\ontological-clinic` do XAMPP no terminal da IDE:
+3. Navegue até a pasta `htdocs\projeto\ontological-clinic` do XAMPP no terminal da IDE:
 
 ```sh
-cd C:\xampp\htdocs\ontological-clinic
+cd C:\xampp\htdocs\projeto\ontological-clinic
 ```
 
 ### Clone o repositório dentro da pasta `C:\xampp\htdocs\ontological-clinic`
