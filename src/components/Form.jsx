@@ -45,7 +45,7 @@ const Form = () => {
 		}
 
 		try {
-			await axios.post('http://localhost/ontological-clinic/index.php', formData, {
+			await axios.post('http://localhost/projeto/ontological-clinic/index.php', formData, {
 				headers: {
 					'Content-Type': 'application/x-www-form-urlencoded',
 				},
