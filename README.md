@@ -35,7 +35,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 cd C:\xampp\htdocs\projeto
 ```
 
-### Clone o repositório dentro da pasta `C:\xampp\htdocs\ontological-clinic`
+### Clone o repositório dentro da pasta `C:\xampp\htdocs\projeto`
 
 ```sh
 git clone -b main https://github.com/BrazSouza/ontological-clinic.git
