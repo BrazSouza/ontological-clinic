@@ -30,16 +30,21 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 1. Abra a sua IDE (por exemplo, Visual Studio Code).
 2. Abra o terminal integrado. No Visual Studio Code, você pode fazer isso clicando em **Terminal** > **New Terminal** no menu superior.
-3. Navegue até a pasta `htdocs\projeto\ontological-clinic` do XAMPP no terminal da IDE:
+3. Navegue até a pasta `htdocs\projeto` do XAMPP no terminal da IDE:
 
 ```sh
-cd C:\xampp\htdocs\projeto\ontological-clinic
+cd C:\xampp\htdocs\projeto
 ```
 
-### Clone o repositório dentro da pasta `C:\xampp\htdocs\ontological-clinic`
+### Clone o repositório dentro da pasta `C:\xampp\htdocs\projeto`
 
 ```sh
 git clone -b main https://github.com/BrazSouza/ontological-clinic.git
+```
+
+### Navegue até a pasta C:\xampp\htdocs\projeto\ontological-clinic 
+```sh
+cd C:\xampp\htdocs\projeto\ontological-clinic
 ```
 
 ### Instale as dependências do projeto
