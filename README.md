@@ -8,31 +8,43 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 - Node.js e npm instalados (recomendado: versão v18.17.0)
 - XAMPP instalado e configurado
+- IDE (por exemplo, Visual Studio Code) instalada
 
 ## Instalação
 
-## Caminho para o repositório
+### Passo 1: Criar a Pasta do Projeto
+
+1. Abra o **Explorador de Arquivos** ( exemplo: Windows Explorer).
+2. Navegue até o diretório onde o XAMPP está instalado. Normalmente, é `C:\xampp`.
+3. Dentro da pasta `xampp`, abra a pasta `htdocs`.
+4. Dentro da pasta `htdocs`, crie uma nova pasta chamada `ontological-clinic`.
+
+### Passo 2: Pegar o Link do Repositório
+
+1. Abra seu navegador web e vá para [https://github.com/BrazSouza/ontological-clinic/tree/main].
+2. Clique no botão **Code** (verde) e depois em **HTTPS**.
+3. Copie o link fornecido (começa com `https://github.com/...`).
+
+### Passo 3: Usando o Terminal da IDE (por exemplo, Visual Studio Code)
+
+1. Abra a sua IDE (por exemplo, Visual Studio Code).
+2. Abra o terminal integrado. No Visual Studio Code, você pode fazer isso clicando em **Terminal** > **New Terminal** no menu superior.
+3. Navegue até a pasta `htdocs\ontological-clinic` do XAMPP no terminal da IDE:
 
 ```sh
-1. https://github.com/BrazSouza/ontological-clinic/tree/main
+cd C:\xampp\htdocs\ontological-clinic
 ```
 
-1. Clone o repositório:
+### Clone o repositório dentro da pasta `C:\xampp\htdocs\ontological-clinic`
+
+```sh
+git clone -b main https://github.com/BrazSouza/ontological-clinic.git
+```
+
+### Instale as dependências do projeto
 
    ```sh
-   git clone -b main https://github.com/BrazSouza/ontological-clinic.git
-   ```
-
-2. Navegue até o diretório do projeto:
-
-   ```sh
-   cd ontological-clinic
-   ```
-
-3. Instale as dependências do projeto:
-
-   ```sh
-   npm install (enter)
+   npm install
    ```
 
 ## Configuração do Banco de Dados
@@ -43,10 +55,10 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 ## Como Usar
 
-1. Inicie o servidor de desenvolvimento do React:
+1. Inicie o servidor de desenvolvimento do React no terminal da IDE (por exemplo, Visual Studio Code)
 
    ```sh
-   npm run dev (enter)
+   npm run dev
    ```
 
 2. Acesse o projeto em seu navegador através do endereço:
