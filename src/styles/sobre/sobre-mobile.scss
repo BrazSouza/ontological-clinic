@@ -5,12 +5,13 @@
 		}
 
 		.img-sobre {
-			margin-top: 55%;
+			margin-top: 0;
 		}
 
 		.box-sobre {
 			position: relative;
-			top: 5rem;
+			top: 0;
+			padding: 0;
 			background: none;
 
 			.content-sobre {
@@ -43,11 +44,13 @@
 	.section-sobre {
 		.img-sobre {
 			position: relative;
-			top: 15rem;
+			top: 8.5rem;
 		}
 
 		.box-sobre {
-			margin-top: 5rem;
+			margin-top: 0;
+			padding: 0;
+
 			.content-sobre {
 				h3 {
 					margin-bottom: 40px;
