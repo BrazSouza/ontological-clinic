@@ -42,16 +42,17 @@ cd C:\xampp\htdocs\projeto
 git clone -b main https://github.com/BrazSouza/ontological-clinic.git
 ```
 
-### Navegue até a pasta C:\xampp\htdocs\projeto\ontological-clinic 
+### Navegue até a pasta C:\xampp\htdocs\projeto\ontological-clinic
+
 ```sh
 cd C:\xampp\htdocs\projeto\ontological-clinic
 ```
 
 ### Instale as dependências do projeto
 
-   ```sh
-   npm install
-   ```
+```sh
+npm install
+```
 
 ## Configuração do Banco de Dados
 
@@ -71,6 +72,12 @@ cd C:\xampp\htdocs\projeto\ontological-clinic
 
    ```sh
    http://localhost:5173/
+   ```
+
+3. Acesse o banco de dados em seu navegador através do endereço:
+
+   ```sh
+   http://localhost/phpmyadmin/
    ```
 
 ## Contribuição
