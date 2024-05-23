@@ -74,11 +74,25 @@ npm install
    http://localhost:5173/
    ```
 
-3. Acesse o banco de dados em seu navegador através do endereço:
+## Acessando o banco de dados
+
+1. Acesse o banco de dados através do MySQL do phpMyAdmin
 
    ```sh
    http://localhost/phpmyadmin/
    ```
+  
+2. Clica em banco de dados no painel
+
+3. Crie um banco de dados chamado `clinic_db` no campo `Nome do Banco`
+
+4. clique no campo ao lado do campo `Nome do Banco` e escolha a opção `utf8_general_ci` e clique no botão `criar`
+
+5. Clique em `importar` e depois em `procurar` ou `escolher arquivo`
+
+6. Acesse `C:\xampp\htdocs\projeto` e selecione o arquivo `clinic_db`
+
+7. Clique no `importar` do painel banco de dados
 
 ## Contribuição
 
