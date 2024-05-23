@@ -90,7 +90,7 @@ npm install
 
 5. Clique em `importar` e depois em `procurar` ou `escolher arquivo`
 
-6. Acesse `C:\xampp\htdocs\projeto` e selecione o arquivo `clinic_db`
+6. Acesse `C:\xampp\htdocs\projeto\ontological-clinic\backend` e selecione o arquivo `clinic_db`
 
 7. Clique no `importar` do painel banco de dados
 
