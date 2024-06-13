@@ -1,4 +1,4 @@
-# Título do Projeto
+# Odonto Vida
 
 O projeto "Odonto Vida" é uma aplicação desenvolvida como parte de um trabalho acadêmico para apresentação na faculdade. Este sistema tem como objetivo simular o gerenciamento das atividades de uma clínica odontológica, oferecendo funcionalidades essenciais para facilitar o fluxo de trabalho de profissionais da área.
 
